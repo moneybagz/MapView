@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534563231D221CE60039729A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 534563221D221CE60039729A /* main.m */; };
+		534563261D221CE60039729A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 534563251D221CE60039729A /* AppDelegate.m */; };
+		534563291D221CE60039729A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 534563281D221CE60039729A /* ViewController.m */; };
+		5345632C1D221CE60039729A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5345632A1D221CE60039729A /* Main.storyboard */; };
+		5345632E1D221CE60039729A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5345632D1D221CE60039729A /* Assets.xcassets */; };
+		534563311D221CE60039729A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5345632F1D221CE60039729A /* LaunchScreen.storyboard */; };
+		534563391D221D000039729A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534563381D221D000039729A /* MapKit.framework */; };
+		5345633B1D221F920039729A /* apple-icon-180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 5345633A1D221F920039729A /* apple-icon-180x180.png */; };
+		5345633E1D2235520039729A /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5345633D1D2235520039729A /* MapPin.m */; };
+		534563401D22D77B0039729A /* cosme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5345633F1D22D77B0039729A /* cosme.jpg */; };
+		534563421D22D7A10039729A /* laPizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 534563411D22D7A10039729A /* laPizza.jpg */; };
+		534563441D22D7B30039729A /* burgerLobster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 534563431D22D7B30039729A /* burgerLobster.jpg */; };
+		5345636F1D22FAF10039729A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5345636E1D22FAF10039729A /* WebKit.framework */; };
+		534563711D22FC060039729A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 534563701D22FC050039729A /* WebViewController.m */; };
+		534563731D22FDE80039729A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534563721D22FDE80039729A /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5345631E1D221CE60039729A /* Mappy 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mappy 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		534563221D221CE60039729A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		534563241D221CE60039729A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		534563251D221CE60039729A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		534563271D221CE60039729A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		534563281D221CE60039729A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5345632B1D221CE60039729A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5345632D1D221CE60039729A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		534563301D221CE60039729A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		534563321D221CE60039729A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534563381D221D000039729A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5345633A1D221F920039729A /* apple-icon-180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-icon-180x180.png"; sourceTree = "<group>"; };
+		5345633C1D2235520039729A /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		5345633D1D2235520039729A /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		5345633F1D22D77B0039729A /* cosme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cosme.jpg; sourceTree = "<group>"; };
+		534563411D22D7A10039729A /* laPizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laPizza.jpg; sourceTree = "<group>"; };
+		534563431D22D7B30039729A /* burgerLobster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burgerLobster.jpg; sourceTree = "<group>"; };
+		5345636D1D22FA940039729A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		5345636E1D22FAF10039729A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		534563701D22FC050039729A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		534563721D22FDE80039729A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5345631B1D221CE60039729A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534563731D22FDE80039729A /* UIKit.framework in Frameworks */,
+				5345636F1D22FAF10039729A /* WebKit.framework in Frameworks */,
+				534563391D221D000039729A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		534563151D221CE60039729A = {
+			isa = PBXGroup;
+			children = (
+				534563721D22FDE80039729A /* UIKit.framework */,
+				5345636E1D22FAF10039729A /* WebKit.framework */,
+				534563381D221D000039729A /* MapKit.framework */,
+				534563201D221CE60039729A /* Mappy 2 */,
+				5345631F1D221CE60039729A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5345631F1D221CE60039729A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5345631E1D221CE60039729A /* Mappy 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		534563201D221CE60039729A /* Mappy 2 */ = {
+			isa = PBXGroup;
+			children = (
+				534563241D221CE60039729A /* AppDelegate.h */,
+				534563251D221CE60039729A /* AppDelegate.m */,
+				534563271D221CE60039729A /* ViewController.h */,
+				534563281D221CE60039729A /* ViewController.m */,
+				5345633C1D2235520039729A /* MapPin.h */,
+				5345633D1D2235520039729A /* MapPin.m */,
+				5345636D1D22FA940039729A /* WebViewController.h */,
+				534563701D22FC050039729A /* WebViewController.m */,
+				5345632A1D221CE60039729A /* Main.storyboard */,
+				5345632D1D221CE60039729A /* Assets.xcassets */,
+				534563431D22D7B30039729A /* burgerLobster.jpg */,
+				5345633F1D22D77B0039729A /* cosme.jpg */,
+				534563411D22D7A10039729A /* laPizza.jpg */,
+				5345633A1D221F920039729A /* apple-icon-180x180.png */,
+				5345632F1D221CE60039729A /* LaunchScreen.storyboard */,
+				534563321D221CE60039729A /* Info.plist */,
+				534563211D221CE60039729A /* Supporting Files */,
+			);
+			path = "Mappy 2";
+			sourceTree = "<group>";
+		};
+		534563211D221CE60039729A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				534563221D221CE60039729A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5345631D1D221CE60039729A /* Mappy 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534563351D221CE60039729A /* Build configuration list for PBXNativeTarget "Mappy 2" */;
+			buildPhases = (
+				5345631A1D221CE60039729A /* Sources */,
+				5345631B1D221CE60039729A /* Frameworks */,
+				5345631C1D221CE60039729A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mappy 2";
+			productName = "Mappy 2";
+			productReference = 5345631E1D221CE60039729A /* Mappy 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		534563161D221CE60039729A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Clyff IOS supercompany";
+				TargetAttributes = {
+					5345631D1D221CE60039729A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B593V95HNX;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 534563191D221CE60039729A /* Build configuration list for PBXProject "Mappy 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 534563151D221CE60039729A;
+			productRefGroup = 5345631F1D221CE60039729A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5345631D1D221CE60039729A /* Mappy 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5345631C1D221CE60039729A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5345633B1D221F920039729A /* apple-icon-180x180.png in Resources */,
+				534563311D221CE60039729A /* LaunchScreen.storyboard in Resources */,
+				5345632E1D221CE60039729A /* Assets.xcassets in Resources */,
+				534563421D22D7A10039729A /* laPizza.jpg in Resources */,
+				534563401D22D77B0039729A /* cosme.jpg in Resources */,
+				534563441D22D7B30039729A /* burgerLobster.jpg in Resources */,
+				5345632C1D221CE60039729A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5345631A1D221CE60039729A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5345633E1D2235520039729A /* MapPin.m in Sources */,
+				534563711D22FC060039729A /* WebViewController.m in Sources */,
+				534563291D221CE60039729A /* ViewController.m in Sources */,
+				534563261D221CE60039729A /* AppDelegate.m in Sources */,
+				534563231D221CE60039729A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5345632A1D221CE60039729A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5345632B1D221CE60039729A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5345632F1D221CE60039729A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534563301D221CE60039729A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		534563331D221CE60039729A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		534563341D221CE60039729A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		534563361D221CE60039729A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mappy 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clyff-super-ios-company.Mappy-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		534563371D221CE60039729A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mappy 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clyff-super-ios-company.Mappy-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		534563191D221CE60039729A /* Build configuration list for PBXProject "Mappy 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534563331D221CE60039729A /* Debug */,
+				534563341D221CE60039729A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534563351D221CE60039729A /* Build configuration list for PBXNativeTarget "Mappy 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534563361D221CE60039729A /* Debug */,
+				534563371D221CE60039729A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 534563161D221CE60039729A /* Project object */;
+}
